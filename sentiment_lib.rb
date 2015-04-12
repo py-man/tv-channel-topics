@@ -9,7 +9,7 @@ class GetSentiment
     require 'unirest'
     response = Unirest.post "https://community-sentiment.p.mashape.com/text/",
     headers:{
-      "X-Mashape-Key" => "4Mq2NuKkZBmshDIvyu0pMPVZ2HgAp1D7wgOjsnZQblMP4WKogk",
+      "X-Mashape-Key" => "4YOURKEY",
       "Content-Type" => "application/x-www-form-urlencoded"
     },
     parameters:{
