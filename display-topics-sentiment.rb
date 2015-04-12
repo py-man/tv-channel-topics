@@ -54,8 +54,8 @@ results              = related_topics.get_api_results
 related_topics.parse_related(results)
 
 ##send a notification
-TOKEN      = "aZZ9P1GHnykrXdgh8147BcVy8NXX61"
-USER       = "u5Zfg1AJAxuEo7s13yqe799mL3m4uz" 
+TOKEN      = "YOURTOKEN"
+USER       = "YOURUSER" 
 notify     = PushNotify.new(TOKEN,USER)
 notify.PushSend(my_message)
 
