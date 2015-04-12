@@ -3,13 +3,13 @@ Using Boxfish Api to get Channel Topics and sentiment - send notifications
 
 You will need to get an API key from boxfish and an API key for sentiment from MASHAPE
 
-  boxfish_lib.rb     - connect and get channel information
+    boxfish_lib.rb     - connect and get channel information
   
-  show-tv-topics.rb  - show nested topics from a current TV show
+    show-tv-topics.rb  - show nested topics from a current TV show
   
-  PushNotify.rb      - send push notification 
+    PushNotify.rb      - send push notification 
   
-  sentiment_lib.rb   - get the sentiment for topics word
+    sentiment_lib.rb   - get the sentiment for topics word
 
 #[display-topics-sentiment.rb]
 
